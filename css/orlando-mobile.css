@@ -1,0 +1,257 @@
+/*Tamanho padrão para Tablets*/
+@media only screen and (max-width: 768px) {
+
+	.header-black ul{
+		display: none;
+	}
+
+}
+
+/*Tamanho padrão para Smarthphones*/
+@media only screen and (max-width: 480px) {
+
+	.header-black ul, #menu{
+		display: none;
+	}
+	header #logotipo{
+		left: 32%;
+		z-index: 10;
+		transition: 1s;
+	}
+	header.open-menu #logotipo{
+		transform: rotate(360deg);	
+	}
+	#btn-bars, #btn-search{
+		color:#fff;
+		font-size: 22px;
+		position: absolute;
+		top:-4px;
+		border: none;
+		display: block;
+	}
+	#btn-bars{
+		left: 4px;
+	}
+	#btn-search{
+		right:10px;
+	}
+	#banner{
+		height: 517px;
+		background-size:contain;
+		background-position: 0;
+		text-align: center;
+	}
+	#banner h1{
+		top:237px;
+		font-size: 48px;
+		margin-left: 0;
+	}
+	#banner h1 small{
+		font-size: 22px;
+	}
+	#news h2{
+		margin-top: -150px;
+		font-size: 32px;
+	}
+
+	#news .thumbnails .item-inner {
+		 margin-left: 33px;
+	}
+	.thumbnails{
+		text-align: center;
+	}
+	#news .thumbnails .item-inner img {
+		width: 90%;
+		margin:0 auto;
+	}
+	#btn-news-prev, #btn-news-next{
+		display: block;
+		border: none;
+		background: none;
+		position: absolute;
+		z-index: 4;
+		top: 135px;
+		color: #5E2699;
+		font-size: 48px;
+	}
+	#btn-news-next{
+		right: -5px;
+	}
+	#btn-news-prev{
+		left: -5px;
+
+	}
+	#estatisticas {
+		height: inherit;
+	}
+	#call-to-action h2 {
+		font-size:33px;
+	}
+	#call-to-action p{
+		font-size: 18px;
+	}
+	#estatisticas p{
+		margin-top: 70px;
+	}
+	#call-to-action .btn-roxo{
+		float:left;
+		min-width: 145px;
+		position: absolute;
+		display: block;
+		margin-top: 30px;
+	}
+	#call-to-action .btn-amarelo{
+		float:right;
+		min-width: 145px;
+		margin-top: 30px;
+		margin-bottom: -45px;
+	}
+	.logo-tipo2, .col-popular-post, .col-links, #get-in, #get-in2, #get-in3{
+		display: none;
+	}
+	.copyright-mobile p{
+		font-size: 12px;
+		line-height: 0;
+
+	}
+	.copy{
+		margin-top: 15px;
+		margin-left: 10px;
+	}
+	.copy2{
+		margin-top: 20px;
+		margin-right: 15px;
+	}
+	#angleup{
+		
+		display:inline-block;
+	}
+
+	footer .list-social a{
+		height: 60px;
+		width:60px;
+		line-height: 71px;
+		border-radius: 30px;
+	}
+	footer .list-social i{
+		font-size: 35px;
+	}
+	footer .list-social{
+		position: absolute;
+    	top: 40px;
+    	left: 25px;
+	}
+	#cinza-claro{
+		height: 158px;
+	}
+	.btn-footer{
+		display: inline-block; 
+		width: 150px;
+        background-color: #11171D;
+        height: 44px;
+        line-height: 35px;
+       	text-align: left;
+       	margin-top: -40px;
+	}
+	footer .col-xs{
+    padding: 0;
+    padding-right: 00px;
+    margin-left: 15px;
+ 
+	}
+	footer .col-xs:last-child {
+        padding-right: 0;
+        margin-right: 0
+ 	}
+
+    .row-fluid{
+    	max-width:100%;
+    	margin: 0 auto;
+    }
+    header .header-black{
+    	position: fixed;
+    	top: 0;
+    	width: 100%;
+    	z-index: 9;
+    }
+    header #menu-mobile{
+    	position: fixed;
+    	top: 40px;
+    	background-color: #fff;
+    	width: 80%;
+    	height: 100%;
+    	left: -80%;
+    	z-index: 5;
+    	transition: 1s;
+    }
+    header.open-menu #menu-mobile{
+    	left: 0;
+    }
+    header.open-menu #menu-mobile-mask{
+    	position: fixed;
+    	width: 100%;
+    	height: 100%;
+    	top: 0;
+    	background-color: rgba(0,0,0,.5);
+    	z-index: 4;
+    }
+    header.open-menu #logotipo{
+    	position: fixed;
+    	top: 50px;
+    	height: 76px;
+    	left: calc(40% - 33px);
+    	z-index: 6;
+    }
+    header.open-menu #menu-mobile ul{
+    	margin:20px;
+    	margin-top: 100px;
+    }
+    header.open-menu #menu-mobile li{
+    	text-align: center;
+    	border-top: #CCC 1px solid;
+    	padding: 20px;
+    }
+    header.open-menu #menu-mobile li{
+   		border-bottom: #CCC 1px solid;
+    }
+    header.open-menu #menu-mobile li a{
+    	color: #633392;
+    	font-family: 'OpenSans';
+    	font-weight: bold;
+    	font-size: 16px;
+    }
+    header.open-menu .bar-close{
+    	position: absolute;
+    	bottom: 40px;
+    	background-color: #633492;
+    	height: 40px;
+    	width: 100%
+    }
+    header.open-menu .bar-close .btn-close{
+    	background: none;
+    	border: none;
+    	color: #fff;
+    	font-size: 22px;
+    }
+    header #input-search-mobile{
+    	transition: 1s;
+    	top: -40px;
+    	position: fixed;
+     	width: 70%;
+    	left: 15%;
+    	background-color: #000;
+    	height: 40px;
+    	color: #fff;
+    	border: none;
+    	outline: 0;	
+    }
+    header.open-search #input-search-mobile{
+    	top: 0;
+    }
+    header.open-search #logotipo{
+    	z-index: 9;
+    }
+    #menu-mobile,#input-search-mobile{
+    	display: block;
+    }
+}
